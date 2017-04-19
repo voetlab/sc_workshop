@@ -28,7 +28,7 @@ The user credentials for the virtual machine are:
 - Username: sc1
 - Password: sc1
 
-**Never use such ludicrous credentials in real life! **
+**Never use such ludicrous credentials in real life!**
 
 ## Data
 
