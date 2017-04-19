@@ -88,13 +88,12 @@ You can also use the [public Ginkgo server](http://qb.cshl.edu/ginkgo/?q=/dUW8Xs
 
 <details>
 <summary>Spoiler</summary><p>
+
 ```
 ls *.bam | cut -f 1 -d "." |  xargs -I {} sh -c "bamToBed -i {}.bam | cut -f 1-3 | sed 's/^/chr/' | gzip > {}.bed.gz"
 ```
 </p>
 </details>
-
-<br>
 
 3) Once your data is converted import it into Ginkgo.
 
