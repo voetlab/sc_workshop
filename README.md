@@ -45,13 +45,8 @@ Checkout the contents of the data folder.
 
 These data are not raw sequencing (which usually come in the form of FASTQ files). These data have already been aligned using [BWA mem](http://bio-bwa.sourceforge.net/).
 
-<br>
-
 ```
 cd /home/sc1/data/
-```
-<br>
-```
 ls /home/sc1/data/
 ```
 <br>
