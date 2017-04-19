@@ -48,13 +48,7 @@ These data are not raw sequencing (which usually come in the form of FASTQ files
 ```
 cd /home/sc1/data/
 ls /home/sc1/data/
-```
-<br>
-```
 sudo apt-get install samtools
-```
-<br>
-```
 samtools flagstat 40.bam
 ```
 </p>
@@ -69,13 +63,7 @@ samtools flagstat 40.bam
 <summary>Spoiler</summary><p>
 ```
 ls | xargs -I {} sh -c "samtools flagstat {} | head -n 3 | grep mapped"
-```
-<br>
-```
 samtools view -H 50.bam
-```
-<br>
-```
 samtools view 50.bam  | cut -f 6
 ```
 </p>
